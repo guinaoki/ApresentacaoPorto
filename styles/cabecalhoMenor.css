@@ -1,0 +1,17 @@
+.cabecalhoMenor {
+    display: flex;
+    
+    border-bottom: 0.5px solid #0046C7;
+    border-right: 0.5px solid #0046C7;
+}
+
+.imagem_cabecalho_menor {
+    padding: 9px;
+    width: 11%;
+}
+
+.imgCabecalho2_menor {
+    width: 8%;
+    height: 7%;
+    padding: 0.9rem 0 0 0;
+}
