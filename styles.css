@@ -1,0 +1,62 @@
+.cabecalho{
+    display: flex;
+    
+    -webkit-box-shadow: 0px 1px 1px 1px rgb(0, 6, 167);
+-moz-box-shadow: 0px 1px 1px 1px rgb(0, 6, 167);
+box-shadow: 0px 1px 1px 1px rgb(0, 6, 167);
+}
+.rodape{
+    display: flex;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.form-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-container button {
+    margin: 10px;
+}
