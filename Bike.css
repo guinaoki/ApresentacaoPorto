@@ -1,10 +1,30 @@
-.fazerSeguro{
-    display: flex;
-    padding: 30px;
+.body{
+    min-height: 100vh;
 }
 
-.desc{
-    display: flex;
+.container1{
+    padding: 20px;
+    position: relative;
+    top: 0px;
+    left: 40px;
+}
+
+.fazerSeguro{
+    position: absolute  ;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    bottom: 230px;
+    left: 40px;
+}
+
+.desc1{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    bottom: 200px;
+    left: 40px;
 }
 
 .cabecalho{
@@ -13,4 +33,92 @@
     -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,1);
 -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,1);
 box-shadow: 0px 1px 1px 1px rgba(0,0,0,1);
+}
+
+.btn1{
+    position: absolute;
+    bottom: 120px;
+    left: 40px;
+    width: 100px;
+    background-color: #0046C0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+}
+
+.btn1:hover{
+    background-color: #003083;
+}
+
+.img1{
+    position: relative;
+    right: 325px;
+    text-align: center;
+}
+
+.img2{
+    position: relative;
+    left: 635px;
+    bottom: 362px;
+}
+
+.container2{
+    position: relative;
+    left: 650px;
+    bottom: 300px;
+}
+
+.verSeguros{
+    position: absolute;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    bottom: 230px;
+}
+
+.desc2{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    bottom: 200px;
+    left: 5px;
+}
+
+.btn2{
+    position: absolute;
+    bottom: 130px;
+    width: 115px;
+    background-color: #0046C0;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+}
+
+.img3{
+    position: relative;
+    right: 90px;
+    bottom: 20px;
+}
+
+.img4{
+    position: relative;
+    bottom: 662px;
+    right: 30px;
+}
+
+.rodape{
+    position: relative;
+    bottom: 667px;
+    right: 100px;
+}
+
+.logoFiapPreto{
+    position: absolute;
+    left: 100px;
+    bottom: 22px;
 }
