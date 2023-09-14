@@ -53,15 +53,18 @@ box-shadow: 0px 1px 1px 1px rgba(0,0,0,1);
 }
 
 .img1{
+    width: 100%;
+    height: auto;
     position: relative;
-    right: 325px;
-    text-align: center;
+    right: 100px;
 }
 
 .img2{
     position: relative;
     left: 635px;
     bottom: 362px;
+    width: 100%;
+    height: auto;
 }
 
 .container2{
