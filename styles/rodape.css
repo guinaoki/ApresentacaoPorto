@@ -1,0 +1,11 @@
+.rodape {
+    display: flex;
+    width: 35%;
+
+    background-color: black;
+}
+
+.img_rodape {
+    padding: 7px;
+    width: 20%;
+}
