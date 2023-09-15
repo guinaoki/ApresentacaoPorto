@@ -1,5 +1,5 @@
 .rodape {
-    display: flex;
+    display: block;
     width: 35%;
 
     background-color: black;

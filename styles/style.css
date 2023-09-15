@@ -11,32 +11,3 @@
 }
 
 
-.container {
-    display: flex;
-    flex-direction: column; 
-    height: 100vh; 
-}
-
-.section_foto_pc {
-    display: flex;
-
-    width: 35%;
-}
-
-
-.ladoDireito,
-.ladoEsquerdo {
-    display: grid;
-
-    grid-template-columns: 35% 65%;
-}
-
-.box1 {
-    grid-column-start: 1;
-    grid-column-end: 2; /* Ajusta a posição da .box1 */
-}
-
-.box2 {
-    grid-column-start: 2;
-    grid-column-end: 3; /* Ajusta a posição da .box2 */
-}
