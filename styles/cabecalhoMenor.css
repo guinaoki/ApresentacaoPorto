@@ -17,3 +17,43 @@
     height: 17%;
     padding: 0.8rem 0 0 0;
 }
+
+
+
+
+
+
+
+
+
+
+.header_celular {
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+
+    .header_celular {
+        display: block; /* Exibe o conteúdo para telas de celular */
+    }
+
+    .cabecalhoMenor {
+        display: flex;
+        width: 100%;
+        
+        border-bottom: 0.5px solid #0046C7;
+        border-right: 0.5px solid #0046C7;
+    }
+    
+    
+    .imagem_cabecalho_menor {
+        padding: 7px;
+        width: 38%;
+    }
+    
+    .imgCabecalho2_menor {
+        width: 27%;
+        height: 26%;
+        padding: 0.7rem 0 0 0;
+    }
+}

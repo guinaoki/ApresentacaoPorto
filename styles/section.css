@@ -73,3 +73,24 @@
     color: #555555;
     border: transparent;
 }
+
+
+
+.desktop-only {
+    display: block;
+}
+
+.mobile-only {
+    display: none;
+}
+
+/* Estilos para telas de celular */
+@media screen and (max-width: 480px) {
+    .desktop-only {
+        display: none; /* Oculta o conteúdo para telas de celular */
+    }
+
+    .mobile-only {
+        display: block; /* Exibe o conteúdo para telas de celular */
+    }
+}

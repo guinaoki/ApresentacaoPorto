@@ -9,3 +9,28 @@
     padding: 7px;
     width: 20%;
 }
+
+
+
+
+.rodape_celular,
+.img_rodape_celular {
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+
+    .rodape_celular {
+        display: block;
+        width: 100%;
+    
+        background-color: black;
+    }
+    
+    .img_rodape_celular {
+        display: block;
+        padding: 7px;
+        width: 30%;
+    }
+
+}
