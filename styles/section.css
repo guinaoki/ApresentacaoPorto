@@ -27,7 +27,14 @@
 .cabecalho_direito {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 4.6rem;
+}
+
+.cabecalho_direito2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.6rem;
 }
 
 
@@ -39,4 +46,30 @@
     background-color: transparent;
     border: white;
     cursor: pointer;
+    align-self: flex-start;
+}
+
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+
+.botoes > a{
+    text-decoration: none;
+    color: #0046C7;
+    font-size: 1.2rem;
+}
+
+.botoes > button {
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: #CECECE;
+    padding: 1rem 5rem;
+    font-size: 1.5rem;
+    color: #555555;
+    border: transparent;
 }
