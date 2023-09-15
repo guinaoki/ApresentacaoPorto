@@ -1,12 +1,17 @@
 .cabecalho{
     display: flex;
-    
-    -webkit-box-shadow: 0px 1px 1px 1px rgb(0, 6, 167);
--moz-box-shadow: 0px 1px 1px 1px rgb(0, 6, 167);
-box-shadow: 0px 1px 1px 1px rgb(0, 6, 167);
+    margin-bottom: 20px;
 }
+
+.cabecalho img {
+    max-width: 100px; /* Largura máxima para as imagens do cabeçalho */
+    height: auto; /* Altura automática para manter a proporção */
+}
+
+
 .rodape{
     display: flex;
+    margin-bottom: 20px;
 }
 
 header {
