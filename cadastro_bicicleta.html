@@ -1,64 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Cadastro de Bicicleta</title>
-    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
-<head>
+<body>
     <div class="cabecalho">
         <img src="./img/image 1.png" alt="porto">
         <img src="./img/logo-fiap 2.png" alt="fiap">
     </div>
-</head>
-
-<body>
     <div class="container">
-        <!-- Formulário de cadastro de bicicleta -->
         <div class="form-container">
-            <i class="/arrow-left.svg">Cadastro da Bicicleta</i>
+            <i>Cadastro da Bicicleta</i>
             <form>
-                <label for="marca"></label>
+                <label for="marca">Marca:</label>
                 <input type="text" id="marca" name="marca" placeholder="Digite a marca" required><br><br>
 
-                <label for="modelo"></label>
+                <label for="modelo">Modelo:</label>
                 <input type="text" id="modelo" name="modelo" placeholder="Digite o modelo" required><br><br>
 
-                <label for="preco"></label>
+                <label for="preco">Preço:</label>
                 <input type="text" id="preco" name="preco" placeholder="Digite o preço" required><br><br>
 
-                <label for="num_chassi"></label>
+                <label for="num_chassi">Número de Chassi:</label>
                 <input type="text" id="num_chassi" name="num_chassi" placeholder="Digite o número de chassi" required><br><br>
 
-                <label for="confirmar_chassi"></label>
+                <label for="confirmar_chassi">Confirmar Chassi:</label>
                 <input type="text" id="confirmar_chassi" name="confirmar_chassi" placeholder="Confirme o número de chassi" required><br><br>
 
-                <label for="tempo_possui"></label>
+                <label for="tempo_possui">Tempo que Possui a Bike:</label>
                 <input type="text" id="tempo_possui" name="tempo_possui" placeholder="Digite o tempo que possui a bike" required><br><br>
 
-                <label for="acessorios"></label>
+                <label for="acessorios">Acessórios:</label>
                 <input type="text" id="acessorios" name="acessorios" placeholder="Digite os acessórios"><br><br>
 
-                <label for="uso_da_bike"></label>
+                <label for="uso_da_bike">Uso da Bike:</label>
                 <input type="text" id="uso_da_bike" name="uso_da_bike" placeholder="Digite o uso da bike"><br><br>
-                
+
                 <div class="button-container">
                     <input type="submit" value="Continuar">
                 </div>
             </form>
-            <section class="button-container">
+            <div class="button-container">
                 <form action="/Bike.html">
                     <input type="submit" value="Voltar">
                 </form>
-            </section>
+            </div>
         </div>
+        <a href="Chatbbot/pagina">
+            <img src="./img/chatbot-icone.png" alt="Descrição da Imagem">
+        </a>
     </div>
-
-    <footer>
-        <div class="rodape">
-            <img src="./img/image 2.png" alt="">
-        </div>
-    </footer>
 </body>
 </html>
