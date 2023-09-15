@@ -3,17 +3,40 @@
 }
 
 .section_foto_pc {
-    display: block;
+    display: flex;
+    align-items: center;
     width: 35%;
 }
 
 .titulo_principal {
-    font-size: 60px;
+    font-size: 3.7rem;
+    padding: 3rem;
     background-color: #A4E4FE;
 }
 
 
 .ladoDireito {
     width: 65%;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid #0046C7;
+    gap: 5.4rem;
+}
+
+.cabecalho_direito {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.ladoDireito > img {
+    width: 50%;
+}
+
+.botao_flecha {
+    background-color: transparent;
+    border: white;
+    cursor: pointer;
 }
