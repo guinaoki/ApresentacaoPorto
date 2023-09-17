@@ -77,7 +77,9 @@
 
 
 
-
+#input-imagem {
+    display: none;
+}
 
 .foto_cel {
     display: none;
@@ -110,6 +112,14 @@
         align-items: center;
         gap: 20px;
         margin: 10px 0 4rem 0;
+    }
+
+    .ima_bik {
+        width: 15%;
+    }
+
+    .ima_bik_esq {
+        width: 19%;
     }
 
     .imagem_cam_botao {

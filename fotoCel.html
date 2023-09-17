@@ -30,14 +30,35 @@
         
         <div class="images_bike">
 
-            <img src="./images/imgDireito.png" alt="">
-            <img src="./images/imgEsquerdo.png" alt="">
-            <img src="./images/imgFrente.png" alt="">
-            <img src="./images/imgAtras.png" alt="">
+            <img class="ima_bik" src="./images/imgDireito.png" alt="">
+            <img class="ima_bik_esq" src="./images/imgEsquerdo.png" alt="">
+            <img class="ima_bik" src="./images/imgFrente.png" alt="">
+            <img class="ima_bik" src="./images/imgAtras.png" alt="">
         
         </div>
 
-        <button class="imagem_cam_botao"> </button>
+        <form action="arquivo.py" method="POST" enctype="multipart/form-data">
+            <input type="file" name="imagem" accept="image/*" id="input-imagem">
+            <input type="submit" value="Enviar Imagem" style="display: none;" id="submit-button">
+        </form>
+        
+        <button class="imagem_cam_botao" id="custom-button">Selecionar Imagem</button>
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const inputImagem = document.getElementById("input-imagem");
+                const submitButton = document.getElementById("submit-button");
+                const customButton = document.getElementById("custom-button");
+        
+                customButton.addEventListener("click", function () {
+                    inputImagem.click(); // Clique no botão de seleção de arquivo invisível
+                });
+        
+                inputImagem.addEventListener("change", function () {
+                    submitButton.click(); // Clique no botão de envio quando uma imagem é selecionada
+                });
+            });
+        </script>
     
     </section>
 
