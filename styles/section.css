@@ -76,21 +76,56 @@
 
 
 
-.desktop-only {
-    display: block;
-}
 
-.mobile-only {
+
+
+.foto_cel {
     display: none;
 }
 
-/* Estilos para telas de celular */
-@media screen and (max-width: 480px) {
-    .desktop-only {
-        display: none; /* Oculta o conteúdo para telas de celular */
+
+@media screen and (max-width: 450px) {
+
+    .foto_cel {
+        display: block;
     }
 
-    .mobile-only {
-        display: block; /* Exibe o conteúdo para telas de celular */
+    .cabecalho_bike {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        font-size: 1.4rem;
+        margin-top: 15px;
+    }
+
+    .image_cel {
+        margin: 2rem 0 1rem 15%;
+        width:  70%;
+    }
+
+    .images_bike {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 10px 0 4rem 0;
+    }
+
+    .imagem_cam_botao {
+        margin-left: 40%;
+        margin-bottom: 3rem;
+        width: 70px;
+        height: 70px;
+        background-image: url("../images/botCamera.png");
+        background-size: cover; /* Ajuste o tamanho da imagem de fundo conforme necessário */
+        border: transparent;
+        cursor: pointer;
+    }
+
+    .imagem_cam_botao:active {
+        
+        background-image: url("../images/botCameraAzul.png");
+        
     }
 }
